@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MyClass.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self testEntrance];
 }
-
+-(void)testEntrance{
+    [[MyClass new] performSelector:@selector(unknownInstanceMethod) withObject:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

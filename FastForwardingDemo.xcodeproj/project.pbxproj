@@ -15,6 +15,8 @@
 		234B3FBC20E5DE5B0039AAF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B3FBB20E5DE5B0039AAF7 /* main.m */; };
 		234B3FC620E5DE5C0039AAF7 /* FastForwardingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B3FC520E5DE5C0039AAF7 /* FastForwardingDemoTests.m */; };
 		234B3FD120E5DE5C0039AAF7 /* FastForwardingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B3FD020E5DE5C0039AAF7 /* FastForwardingDemoUITests.m */; };
+		234B3FE020E5DE920039AAF7 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B3FDF20E5DE920039AAF7 /* MyClass.m */; };
+		234B3FE320E5DEBA0039AAF7 /* MyFastForwardingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B3FE220E5DEBA0039AAF7 /* MyFastForwardingClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		234B3FCC20E5DE5C0039AAF7 /* FastForwardingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastForwardingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234B3FD020E5DE5C0039AAF7 /* FastForwardingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastForwardingDemoUITests.m; sourceTree = "<group>"; };
 		234B3FD220E5DE5C0039AAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234B3FDE20E5DE920039AAF7 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		234B3FDF20E5DE920039AAF7 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		234B3FE120E5DEBA0039AAF7 /* MyFastForwardingClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFastForwardingClass.h; sourceTree = "<group>"; };
+		234B3FE220E5DEBA0039AAF7 /* MyFastForwardingClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFastForwardingClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				234B3FB720E5DE5B0039AAF7 /* LaunchScreen.storyboard */,
 				234B3FBA20E5DE5B0039AAF7 /* Info.plist */,
 				234B3FBB20E5DE5B0039AAF7 /* main.m */,
+				234B3FDE20E5DE920039AAF7 /* MyClass.h */,
+				234B3FDF20E5DE920039AAF7 /* MyClass.m */,
+				234B3FE120E5DEBA0039AAF7 /* MyFastForwardingClass.h */,
+				234B3FE220E5DEBA0039AAF7 /* MyFastForwardingClass.m */,
 			);
 			path = FastForwardingDemo;
 			sourceTree = "<group>";
@@ -265,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234B3FE020E5DE920039AAF7 /* MyClass.m in Sources */,
 				234B3FB120E5DE5B0039AAF7 /* ViewController.m in Sources */,
+				234B3FE320E5DEBA0039AAF7 /* MyFastForwardingClass.m in Sources */,
 				234B3FBC20E5DE5B0039AAF7 /* main.m in Sources */,
 				234B3FAE20E5DE5B0039AAF7 /* AppDelegate.m in Sources */,
 			);
